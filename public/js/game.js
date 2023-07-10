@@ -286,9 +286,9 @@ function textboxCheck(){
     setTimeout(() => {
       textboxCheck();
     }, 100);
-  }else if(textbox.value == "auto typing"){
+  }else if(textbox.value == "/godmode"){
     isAutoTyping = true;
-    textbox.value = "OK.";
+    textbox.value = "Godmode activated.";
     body.style.backgroundColor = "#bbb";
   }else if(textbox.value != targetText && !isAutoTyping){
     wrongAnswer();
